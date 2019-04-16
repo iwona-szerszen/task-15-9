@@ -50,7 +50,7 @@ class UsersList extends React.Component {
 		} else {
 			return (
 				<div>
-					<div className="results-number">{this.users.length} results found</div>
+					<div className="results-number">Top {this.users.length} results</div>
 					<div>{this.users}</div>
 				</div>
 			);

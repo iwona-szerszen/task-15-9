@@ -112,8 +112,9 @@ var UsersList = function (_React$Component2) {
 					React.createElement(
 						"div",
 						{ className: "results-number" },
+						"Top ",
 						this.users.length,
-						" results found"
+						" results"
 					),
 					React.createElement(
 						"div",
